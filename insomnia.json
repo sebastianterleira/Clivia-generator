@@ -1,0 +1,103 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-09-03T03:07:47.214Z",
+  "__export_source": "insomnia.desktop.app:v2022.5.1",
+  "resources": [
+    {
+      "_id": "req_d3f8d1bac94e40d399e1555796ba5507",
+      "parentId": "fld_0607a3aca3c24309bcb90b717513c6ab",
+      "modified": 1662174439123,
+      "created": 1662174242823,
+      "url": "https://opentdb.com/api.php?amount=10",
+      "name": "Index",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "id": "pair_2a039e222a8641069d7dc75f0f586e87",
+          "name": "Content-Type",
+          "value": "application/json",
+          "description": ""
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1662174242823,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_0607a3aca3c24309bcb90b717513c6ab",
+      "parentId": "wrk_542db5ff851341158f4d79e5dd452508",
+      "modified": 1662174436358,
+      "created": 1662174436358,
+      "name": "Trivia",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1662174436358,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_542db5ff851341158f4d79e5dd452508",
+      "parentId": null,
+      "modified": 1662174175070,
+      "created": 1662174175070,
+      "name": "insomnia.json",
+      "description": "",
+      "scope": "design",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_80e85cbcf3c07d9edf345045e3c8481096517301",
+      "parentId": "wrk_542db5ff851341158f4d79e5dd452508",
+      "modified": 1662174175081,
+      "created": 1662174175081,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1662174175081,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_80e85cbcf3c07d9edf345045e3c8481096517301",
+      "parentId": "wrk_542db5ff851341158f4d79e5dd452508",
+      "modified": 1662174246087,
+      "created": 1662174175088,
+      "name": "Default Jar",
+      "cookies": [
+        {
+          "key": "PHPSESSID",
+          "value": "3e4c97fbb4eb7980295bce9fff921c99",
+          "domain": "opentdb.com",
+          "path": "/",
+          "hostOnly": true,
+          "creation": "2022-09-03T03:04:06.087Z",
+          "lastAccessed": "2022-09-03T03:04:06.087Z",
+          "id": "5703737978373877"
+        }
+      ],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_25bd2478739d4c9bad800bac853681c5",
+      "parentId": "wrk_542db5ff851341158f4d79e5dd452508",
+      "modified": 1662174235597,
+      "created": 1662174175071,
+      "fileName": "insomnia.json",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
